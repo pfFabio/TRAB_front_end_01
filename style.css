@@ -1,0 +1,24 @@
+#pokemon{
+    width: 96px;
+    text-align: center;
+}
+
+#habilidades{
+    width: 400px;
+}
+
+.efeito{
+    margin-left: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://cdn.prod.website-files.com/622733c59bf20d8a074764f6/627a7569f1389244d2938298_pokemon-banner.png');
+    margin-bottom: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}

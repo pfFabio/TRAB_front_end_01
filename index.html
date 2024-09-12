@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header style="justify-content: start;">
+            <img height="100px" src="https://th.bing.com/th/id/R.09a6ae937a6d9ef5cd10d132b59d6f5d?rik=8Wf%2bQNejqAkwIQ&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f4%2fPokemon-Pokeball-PNG-File.png&ehk=V%2f9byi3M%2bsgwt9knLB1GOoHBn8LkyKl6pt%2b4RSsHy%2bw%3d&risl=&pid=ImgRaw&r=0" alt="">
+            <h1 style="margin-left: 10px;">POKEDEX</h1>
+    </header>
+    <main>
+        <div>
+            <button onclick="mudaID(-1)"> < </button>
+            <input id="atalho" type="number" onkeypress="atalho(event)">
+            <button onclick="mudaID(1)"> > </button>
+            <div id="pokemon" style="margin-left: 50px;"></div>
+        </div>
+        <div id="atributos">
+            <h2> Lista de atributos dos pokemons </h2>
+            <div id="habilidades"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
