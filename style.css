@@ -14,7 +14,7 @@
 header{
     display: flex;
     justify-content: center;
-    background-image: url('https://cdn.prod.website-files.com/622733c59bf20d8a074764f6/627a7569f1389244d2938298_pokemon-banner.png');
+    background-color: 'red';
     margin-bottom: 10px;
 }
 
